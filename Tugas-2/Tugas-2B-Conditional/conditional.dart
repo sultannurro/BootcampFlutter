@@ -57,6 +57,7 @@
 
 // Soal No 4
 // void main(){
+//     print("=======Soal No 4=======");
 //     var tanggal = 9; 
 //     var bulan = 1; 
 //     var tahun = 2003;
@@ -77,6 +78,11 @@
 //     case "12":   { str_bulan = "Desember"; break; }
 //     default:     { print('Tidak terjadi apa-apa'); };};
 
-//     print("$tanggal $str_bulan $tahun");
+//     if((tanggal <= 31 && tanggal > 0) && (bulan <= 12 && bulan > 0) && (tahun <= 2200 && tahun >= 1900)){
+//         print("$tanggal $str_bulan $tahun");
+//     }else{
+//         print("Masukkan tidak valid");
+//     }
+
 // }
 
