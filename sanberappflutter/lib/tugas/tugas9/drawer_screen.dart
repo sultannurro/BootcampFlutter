@@ -18,8 +18,9 @@ class _DrawerScreenState extends State<DrawerScreen> {
             currentAccountPicture: CircleAvatar(
               backgroundImage: AssetImage("assets/img/foto_profil.jpeg"),
               ), 
-              accountEmail: Text("example@gmail.com"), 
+              accountEmail: Text("example@gmail.com"),
             ),
+            
           DrawerListTile(
             iconData: Icons.group, 
             title: "NewGroup", 
@@ -66,6 +67,7 @@ const DrawerListTile({Key? key, required this.iconData, required this.title, req
   @override
   Widget build(BuildContext context) {
     return ListTile(
+      
       onTap: onTilePressed,
       dense: true,
       leading: Icon(iconData),

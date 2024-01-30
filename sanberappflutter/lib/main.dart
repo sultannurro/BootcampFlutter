@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-import 'tugas/tugas9/telegram.dart';
+import 'package:sanberappflutter/tugas/tugas11/login_screen2.dart';
+import 'package:sanberappflutter/tugas/tugas11/search_screen.dart';
+import 'tugas/tugas11/home_screen2.dart';
+import 'package:sanberappflutter/tugas/tugas11/routes.dart';
+import 'package:sanberappflutter/tugas/tugas11/akun.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +19,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Telegram(),
+      home: LoginScreen(),
+      routes: {
+        '/search': (context) => SearchScreen(),
+        '/home': (context) => HomeScreen(),
+        '/akun':(context) => AccountPage(),
+      },
     );
   }
 }
