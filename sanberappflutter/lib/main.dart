@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:sanberappflutter/tugas/tugas11/login_screen2.dart';
 import 'package:sanberappflutter/tugas/tugas11/search_screen.dart';
+import 'package:sanberappflutter/tugas/tugas12/get_data_screen.dart';
 import 'tugas/tugas11/home_screen2.dart';
 import 'package:sanberappflutter/tugas/tugas11/routes.dart';
 import 'package:sanberappflutter/tugas/tugas11/akun.dart';
+import 'package:sanberappflutter/tugas/tugas12/get_data_screen.dart';
+import 'package:sanberappflutter/tugas/tugas12/get_data_detail_screen.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -19,7 +22,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginScreen(),
+      debugShowCheckedModeBanner: false,
+      home: GetDataScreen(),
       routes: {
         '/search': (context) => SearchScreen(),
         '/home': (context) => HomeScreen(),
