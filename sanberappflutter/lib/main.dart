@@ -7,6 +7,8 @@ import 'package:sanberappflutter/tugas/tugas11/routes.dart';
 import 'package:sanberappflutter/tugas/tugas11/akun.dart';
 import 'package:sanberappflutter/tugas/tugas12/get_data_screen.dart';
 import 'package:sanberappflutter/tugas/tugas12/get_data_detail_screen.dart';
+import 'package:sanberappflutter/tugas/tugas13/pages/splash_screen/splash_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -22,8 +24,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      debugShowCheckedModeBanner: false,
-      home: GetDataScreen(),
+
+      home: SplashScreen(),
       routes: {
         '/search': (context) => SearchScreen(),
         '/home': (context) => HomeScreen(),
