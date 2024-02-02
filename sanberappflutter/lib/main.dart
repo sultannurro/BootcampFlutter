@@ -8,6 +8,7 @@ import 'package:sanberappflutter/tugas/tugas11/akun.dart';
 import 'package:sanberappflutter/tugas/tugas12/get_data_screen.dart';
 import 'package:sanberappflutter/tugas/tugas12/get_data_detail_screen.dart';
 import 'package:sanberappflutter/tugas/tugas13/pages/splash_screen/splash_screen.dart';
+import 'package:sanberappflutter/Latihan/Latihan-1/get_data_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
 
-      home: SplashScreen(),
+      home: GetDataScreenStateManagement(),
       routes: {
         '/search': (context) => SearchScreen(),
         '/home': (context) => HomeScreen(),
