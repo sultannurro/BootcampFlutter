@@ -1,7 +1,8 @@
 import 'package:sanberappflutter/Latihan/Latihan-1/controller/appcontroller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
+//
+//
 class GetDataScreenStateManagement extends StatelessWidget {
   const GetDataScreenStateManagement({Key? key}) : super(key: key);
 

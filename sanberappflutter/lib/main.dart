@@ -9,7 +9,7 @@ import 'package:sanberappflutter/tugas/tugas12/get_data_screen.dart';
 import 'package:sanberappflutter/tugas/tugas12/get_data_detail_screen.dart';
 import 'package:sanberappflutter/tugas/tugas13/pages/splash_screen/splash_screen.dart';
 import 'package:sanberappflutter/Latihan/Latihan-1/get_data_screen.dart';
-
+//
 void main() {
   runApp(const MyApp());
 }
